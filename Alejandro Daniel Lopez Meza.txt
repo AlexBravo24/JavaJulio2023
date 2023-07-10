@@ -1,0 +1,23 @@
+----- configuración inicial ------
+git config --global user.name "Alejandro"
+git config --global user.email "alejandrod.meza21@gmail.com"
+
+----- clonar repositorio -------
+git clone https://github.com/AlexBravo24/JavaJulio2023.git
+
+--- cambiar de rama de ubicación -------
+git checkout rama_desarrollo ( develop, main )
+
+---- crear rama -----
+git branch rama1_adlm 
+
+------- para subir todos los archivos ---
+git add .
+
+---- ver cambios en los archivos -----
+git status 
+
+----- Para agregar comentarios ----------
+git commit -m "Comentario"
+
+git push ---- Para subir cambios dentro del repositorio ----
