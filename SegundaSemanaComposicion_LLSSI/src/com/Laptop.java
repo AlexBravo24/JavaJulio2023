@@ -1,0 +1,85 @@
+package com;
+
+public class Laptop { // ESTE OBJETO PUEDE DE TENER DE ATRIBUTOS A OTROS OBJETOS
+	
+	private String marca;
+	private String color;
+	private Almacenamiento disco; //ESTO TAMBIEN ES UN OBJETO CON ATRIBUTOS PROPIOS 
+	private Procesador cpu;
+	private Ram memoriaRam;
+	
+	public Laptop () {
+		
+	}
+	
+	public Laptop(String marca, String color, Almacenamiento disco, Procesador cpu, Ram memoriaRam) {
+		super();
+		this.marca = marca;
+		this.color = color;
+		this.disco = disco;
+		this.cpu = cpu;
+		this.memoriaRam = memoriaRam;
+	}
+
+
+	public String getMarca() {
+		return marca;
+	}
+
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+
+	public String getColor() {
+		return color;
+	}
+
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+
+	public Almacenamiento getDisco() {
+		return disco;
+	}
+
+
+	public void setDisco(Almacenamiento disco) {
+		this.disco = disco;
+	}
+
+
+	public Procesador getCpu() {
+		return cpu;
+	}
+
+
+	public void setCpu(Procesador cpu) {
+		this.cpu = cpu;
+	}
+
+
+	public Ram getMemoriaRam() {
+		return memoriaRam;
+	}
+
+
+	public void setMemoriaRam(Ram memoriaRam) {
+		this.memoriaRam = memoriaRam;
+	}
+
+	@Override
+	public String toString() {
+		return "Laptop [marca=" + marca + ", color=" + color + ", disco=" + disco + ", cpu=" + cpu + ", memoriaRam="
+				+ memoriaRam + "]";
+	}
+	
+	
+	
+	
+	
+
+}
